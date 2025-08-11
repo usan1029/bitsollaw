@@ -53,11 +53,13 @@ export default function Header() {
           <div className="flex items-center space-x-4">
             <div className="hidden sm:flex items-center text-sm text-gray-600">
               <Phone className="h-4 w-4 text-law-gold mr-2" />
-              <a href="tel:02-858-8638" className="hover:text-law-navy">
+              <button
+                onClick={() => (window.location.href = "tel:02-858-8638")}
+                className="hover:text-law-navy"
+              >
                 02-858-8638
-              </a>
+              </button>
             </div>
-
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" className="md:hidden">

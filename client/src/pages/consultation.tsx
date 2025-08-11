@@ -39,13 +39,15 @@ export default function Consultation() {
               </div>
               <h3 className="text-2xl font-bold text-law-navy mb-4">전화 상담</h3>
               <p className="text-gray-600 mb-6">즉시 상담이 가능한 전화 연결</p>
-              <a href="tel:02-858-8638">
-                <Button className="bg-blue-600 hover:bg-blue-800 text-white px-6 py-3">
-                  02-858-8638
-                </Button>
-              </a>
+              <Button
+                className="bg-blue-600 hover:bg-blue-800 text-white px-6 py-3"
+                onClick={() => (window.location.href = "tel:02-858-8638")}
+              >
+                02-858-8638
+              </Button>
             </CardContent>
           </Card>
+
 
           <Card className="border-none shadow-lg text-center">
             <CardContent className="p-8">

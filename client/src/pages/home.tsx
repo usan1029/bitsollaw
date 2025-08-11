@@ -37,16 +37,15 @@ export default function Home() {
                   상담 신청
                 </Button>
               </Link>
-              <a href="tel:02-858-8638">
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="border-2 border-white hover:bg-white/10 hover:bg-white hover:text-law-navy text-black px-8 py-4 text-lg"
-                >
-                  <Phone className="mr-2 h-5 w-5" />
-                  02-858-8638
-                </Button>
-              </a>
+              <Button
+                variant="outline"
+                size="lg"
+                className="border-2 border-white hover:bg-white/10 hover:bg-white hover:text-law-navy text-black px-8 py-4 text-lg"
+                onClick={() => (window.location.href = "tel:02-858-8638")}
+              >
+                <Phone className="mr-2 h-5 w-5" />
+                02-858-8638
+              </Button>
             </div>
           </div>
         </div>

@@ -42,11 +42,15 @@ export default function Contact() {
                     <Phone className="h-6 w-6 text-law-gold mr-4 mt-1" />
                     <div>
                       <p className="font-semibold text-law-navy mb-1">전화번호</p>
-                      <a href="tel:02-858-8638" className="text-gray-700 hover:text-law-navy">
+                      <button
+                        onClick={() => (window.location.href = "tel:02-858-8638")}
+                        className="text-gray-700 hover:text-law-navy"
+                      >
                         02-858-8638
-                      </a>
+                      </button>
                     </div>
                   </div>
+
 
                   <div className="flex items-start">
                     <Mail className="h-6 w-6 text-law-gold mr-4 mt-1" />
@@ -133,18 +137,22 @@ export default function Contact() {
             대표변호사와의 상담 일정을 조율해 드리겠습니다.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:02-858-8638">
-              <Button className="bg-blue-800 hover:bg-blue-200">
-                <Phone className="mr-2 h-4 w-4" />
-                전화 예약
-              </Button>
-            </a>
-            <a href="mailto:bitsollaw@gmail.com">
-              <Button variant="outline" className="border-law-navy text-law-navy hover:bg-black hover:text-white">
-                <Mail className="mr-2 h-4 w-4" />
-                이메일 예약
-              </Button>
-            </a>
+            <Button
+              className="bg-blue-800 hover:bg-blue-200"
+              onClick={() => (window.location.href = "tel:02-858-8638")}
+            >
+              <Phone className="mr-2 h-4 w-4" />
+              전화 예약
+            </Button>
+
+            <Button
+              variant="outline"
+              className="border-law-navy text-law-navy hover:bg-black hover:text-white"
+              onClick={() => (window.location.href = "mailto:bitsollaw@gmail.com")}
+            >
+              <Mail className="mr-2 h-4 w-4" />
+              이메일 예약
+            </Button>
           </div>
         </div>
       </div>

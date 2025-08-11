@@ -14,18 +14,19 @@ export default function Footer() {
               신뢰할 수 있는 법률 파트너
             </p>
             <div className="flex space-x-4">
-              <a
-                href="tel:02-858-8638"
+              <button
+                onClick={() => (window.location.href = "tel:02-858-8638")}
                 className="text-law-gold hover:text-yellow-300 transition-colors"
               >
                 <Phone className="h-5 w-5" />
-              </a>
-              <a
-                href="mailto:bitsollaw@gmail.com"
+              </button>
+
+              <button
+                onClick={() => (window.location.href = "mailto:bitsollaw@gmail.com")}
                 className="text-law-gold hover:text-yellow-300 transition-colors"
               >
                 <Mail className="h-5 w-5" />
-              </a>
+              </button>
             </div>
           </div>
 
@@ -69,15 +70,22 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <Phone className="h-4 w-4 mr-2" />
-                <a href="tel:02-858-8638" className="hover:text-white">
+                <button
+                  onClick={() => (window.location.href = "tel:02-858-8638")}
+                  className="hover:text-white"
+                >
                   02-858-8638
-                </a>
+                </button>
               </div>
+
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" />
-                <a href="mailto:bitsollaw@gmail.com" className="hover:text-white">
+                <button
+                  onClick={() => (window.location.href = "mailto:bitsollaw@gmail.com")}
+                  className="hover:text-white"
+                >
                   bitsollaw@gmail.com
-                </a>
+                </button>
               </div>
               <div className="flex items-start">
                 <Clock className="h-4 w-4 mr-2 mt-0.5" />

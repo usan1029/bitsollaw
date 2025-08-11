@@ -166,12 +166,19 @@ export default function PracticeAreas() {
             전문적인 법률 자문을 통해 최적의 해결방안을 제시해 드립니다.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:02-858-8638" className="text-law-navy font-semibold">
+            <button
+              onClick={() => (window.location.href = "tel:02-858-8638")}
+              className="text-law-navy font-semibold"
+            >
               📞 02-858-8638
-            </a>
-            <a href="mailto:bitsollaw@gmail.com" className="text-law-navy font-semibold">
+            </button>
+
+            <button
+              onClick={() => (window.location.href = "mailto:bitsollaw@gmail.com")}
+              className="text-law-navy font-semibold"
+            >
               ✉️ bitsollaw@gmail.com
-            </a>
+            </button>
           </div>
         </div>
       </div>
