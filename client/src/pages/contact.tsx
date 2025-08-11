@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail, Clock, Navigation } from "lucide-react";
 export default function Contact() {
   const openMap = () => {
     window.open(
-      "https://map.naver.com/v5/search/관악구%20신림로58길%2013",
+      "https://i.imgur.com/wwCjIcv.jpg",
       "_blank"
     );
   };
