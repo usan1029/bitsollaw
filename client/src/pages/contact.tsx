@@ -105,7 +105,7 @@ export default function Contact() {
                 <p className="text-gray-600 mb-4">정확한 위치는 지도를 참고해 주세요</p>
                 <Button
                   onClick={openMap}
-                  className="bg-blue hover:bg-blue text-white"
+                  className="bg-blue-800 hover:bg-blue-400 text-white"
                 >
                   <MapPin className="mr-2 h-4 w-4" />
                   지도에서 보기
@@ -134,13 +134,13 @@ export default function Contact() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:02-858-8638">
-              <Button className="bg-law-navy hover:bg-blue-800">
+              <Button className="bg-blue-800 hover:bg-blue-200">
                 <Phone className="mr-2 h-4 w-4" />
                 전화 예약
               </Button>
             </a>
             <a href="mailto:bitsollaw@gmail.com">
-              <Button variant="outline" className="border-law-navy text-law-navy hover:bg-law-navy hover:text-white">
+              <Button variant="outline" className="border-law-navy text-law-navy hover:bg-black hover:text-white">
                 <Mail className="mr-2 h-4 w-4" />
                 이메일 예약
               </Button>
