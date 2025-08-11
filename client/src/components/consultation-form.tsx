@@ -199,15 +199,25 @@ export default function ConsultationForm({ onSuccess }: ConsultationFormProps) {
                 <div className="space-y-1 leading-none">
                   <FormLabel className="text-sm text-gray-600">
                     개인정보 수집 및 이용에 동의합니다.{" "}
-                    <Link href="/privacy" className="text-law-navy underline">
+                    <a
+                      href="/privacy"
+                      target="_blank"
+                      rel="noreferrer"
+                      onClick={(e) => e.stopPropagation()} // 🔴 이벤트 전파 차단
+                      className="text-law-navy underline"
+                    >
                       자세히 보기
-                    </Link>
+                    </a>
+                    {/* <Link href="/privacy" className="text-law-navy underline">
+                      자세히 보기
+                    </Link> */}
                   </FormLabel>
                   <FormMessage />
                 </div>
               </FormItem>
             )}
           />
+          
 
           <Button
             type="submit"
