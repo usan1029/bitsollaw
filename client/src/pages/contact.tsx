@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail, Clock, Navigation } from "lucide-react";
 export default function Contact() {
   const openMap = () => {
     window.open(
-      "https://i.imgur.com/wwCjIcv.jpg",
+      "https://map.naver.com/p/entry/place/2037280471?placePath=/home?entry=plt&from=map&fromPanelNum=1&additionalHeight=76&timestamp=202508111625&locale=ko&svcName=map_pcv5&searchType=place&lng=126.9306135&lat=37.4825811&c=17.22,0,0,0,dh",
       "_blank"
     );
   };
@@ -95,7 +95,7 @@ export default function Contact() {
 
           <div>
             <img
-              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+              src="https://i.imgur.com/wwCjIcv.jpg"
               alt="Office building exterior"
               className="rounded-xl shadow-lg w-full h-auto mb-6"
             />
