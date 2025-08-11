@@ -64,7 +64,6 @@ export default function Contact() {
                       <p className="font-semibold text-law-navy mb-1">운영시간</p>
                       <div className="text-gray-700 space-y-1">
                         <p>평일 09:00 - 18:00</p>
-                        <p>토요일 09:00 - 13:00</p>
                         <p className="text-sm">(일요일 및 공휴일 휴무)</p>
                       </div>
                     </div>

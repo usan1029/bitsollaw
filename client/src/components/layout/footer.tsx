@@ -9,9 +9,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-2xl font-bold mb-4">빛솔 법률사무소</h3>
-            <p className="text-gray-300 mb-4">
-              관악구 30년 경험의 신뢰할 수 있는 법률 파트너
+            <h3 className="text-2xl text-black font-bold mb-4">빛솔 법률사무소</h3>
+            <p className="text-black mb-4">
+              신뢰할 수 있는 법률 파트너
             </p>
             <div className="flex space-x-4">
               <a
@@ -30,8 +30,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">빠른 링크</h4>
-            <ul className="space-y-2 text-gray-300">
+            <h4 className="text-lg text-black font-semibold mb-4">빠른 링크</h4>
+            <ul className="space-y-2 text-black">
               <li>
                 <Link href="/about" className="hover:text-white transition-colors">
                   사무소 소개
@@ -61,8 +61,8 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">연락처 정보</h4>
-            <div className="space-y-2 text-gray-300">
+            <h4 className="text-lg text-black font-semibold mb-4">연락처 정보</h4>
+            <div className="space-y-2 text-black">
               <div className="flex items-start">
                 <MapPin className="h-4 w-4 mr-2 mt-0.5 flex-shrink-0" />
                 <span>서울시 관악구 신림로58길 13, S-빌딩 603호</span>
@@ -83,17 +83,16 @@ export default function Footer() {
                 <Clock className="h-4 w-4 mr-2 mt-0.5" />
                 <div>
                   <div>평일 09:00-18:00</div>
-                  <div>토요일 09:00-13:00</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-blue-700 mt-8 pt-8 text-center text-gray-300">
+        <div className="border-t border-blue-700 mt-8 pt-8 text-center text-black">
           <p>&copy; {currentYear} 빛솔 법률사무소. All rights reserved.</p>
           <p className="text-sm mt-2">
-            사업자등록번호: 123-45-67890 | 대표변호사: 정민환
+            사업자등록번호: 523-57-00846 | 대표변호사: 정민환
           </p>
         </div>
       </div>

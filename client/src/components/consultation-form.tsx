@@ -212,7 +212,7 @@ export default function ConsultationForm({ onSuccess }: ConsultationFormProps) {
           <Button
             type="submit"
             disabled={isLoading}
-            className="w-full bg-law-navy hover:bg-blue-800 text-white py-4 rounded-lg font-semibold text-lg"
+            className="w-full bg-blue-600 hover:bg-blue-800 text-white py-4 rounded-lg font-semibold text-lg"
           >
             {isLoading ? "접수 중..." : "상담 신청하기"}
           </Button>
