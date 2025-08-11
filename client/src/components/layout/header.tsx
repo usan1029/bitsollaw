@@ -81,13 +81,13 @@ export default function Header() {
                     </Link>
                   ))}
                   <div className="pt-4 border-t">
-                    <a
-                      href="tel:02-858-8638"
-                      className="flex items-center text-law-navy font-medium"
+                    <Button
+                      className="bg-blue-600 hover:bg-blue-800 text-white px-6 py-3"
+                      onClick={() => (window.location.href = "tel:02-858-8638")}
                     >
-                      <Phone className="h-4 w-4 mr-2" />
                       02-858-8638
-                    </a>
+                    </Button>
+
                   </div>
                 </nav>
               </SheetContent>
