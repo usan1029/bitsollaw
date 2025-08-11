@@ -105,7 +105,7 @@ export default function Contact() {
                 <p className="text-gray-600 mb-4">정확한 위치는 지도를 참고해 주세요</p>
                 <Button
                   onClick={openMap}
-                  className="bg-law-navy hover:bg-blue-800 text-white"
+                  className="bg-blue hover:bg-blue text-white"
                 >
                   <MapPin className="mr-2 h-4 w-4" />
                   지도에서 보기
