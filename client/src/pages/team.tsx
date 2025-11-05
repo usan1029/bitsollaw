@@ -122,6 +122,7 @@ export default function Team() {
         </div>
 
         <div className="max-w-4xl mx-auto space-y-12">
+          <div className="h-24 w-full bg-gradient-to-r from-law-navy to-law-gold/80" />
           {/* 정민환 변호사 */}
           <ProfileCard
             photo="https://i.imgur.com/4EWwFul.jpg"
@@ -152,6 +153,7 @@ export default function Team() {
             activities={["관악구 법률지원 사업 참여", "신림동 상권활성화 법률자문", "관악구 주민센터 정기 법률상담"]}
           />
 
+          <div className="h-24 w-full bg-gradient-to-r from-law-navy to-law-gold/80" />
           {/* 송재원 이사 */}
           <ProfileCard
             photo="https://i.imgur.com/wDmIOZz.jpg"
@@ -176,6 +178,7 @@ export default function Team() {
             specialties={["보험사건 전문", "산재사건 전문", "국가손해배상(국가장애)보험 전문"]}
           />
 
+          <div className="h-24 w-full bg-gradient-to-r from-law-navy to-law-gold/80" />
           {/* 강진영 손해사정사/법무실장 */}
           <ProfileCard
             photo="https://imgur.com/FkWIkio.jpg"
