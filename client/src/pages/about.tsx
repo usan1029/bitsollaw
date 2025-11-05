@@ -21,7 +21,7 @@ export default function About() {
             <div className="space-y-6 text-lg text-black leading-relaxed">
               <p>안녕하십니까. 빛솔 법률사무소 대표변호사 정민환입니다.</p>
               <p>
-                저는 관악구에서 30년 이상 거주하며 이 지역의 특성과 주민분들의 고민을 깊이
+                저는 관악구·금천구·구로구에서 30년 이상 거주하며 이 지역의 특성과 주민분들의 고민을 깊이
                 이해하고 있습니다. 법률 문제로 어려움을 겪고 계신 분들에게 실질적이고
                 효과적인 해결책을 제시하는 것이 저의 사명입니다.
               </p>
@@ -68,7 +68,7 @@ export default function About() {
                 지역 전문성
               </h3>
               <ul className="space-y-3 text-black">
-                <li>• 관악구 30년 이상 거주 경험</li>
+                <li>• 관악구·금천구·구로구 30년 이상 거주 경험</li>
                 <li>• 지역 특성 깊이 이해</li>
                 <li>• 다양한 법원 출입 경험</li>
                 <li>• 지역 주민과의 신뢰</li>

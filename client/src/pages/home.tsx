@@ -72,9 +72,9 @@ export default function Home() {
                 <div className="w-16 h-16 bg-law-navy text-white rounded-full flex items-center justify-center mx-auto mb-4">
                   <MapPin className="h-8 w-8" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">관악구 30년 이상 거주</h3>
+                <h3 className="text-xl font-semibold mb-2">관악구·금천구·구로구관악구 30년 이상 거주</h3>
                 <p className="text-gray-600">
-                  지역 특성을 깊이 이해하는 <br/> 관악구 전문 법무 서비스
+                  지역 특성을 깊이 이해하는 <br/> 관악구·금천구·구로구 전문 법무 서비스
                 </p>
               </CardContent>
             </Card>
@@ -105,7 +105,7 @@ export default function Home() {
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p>안녕하십니까. 빛솔 법률사무소 대표변호사 정민환입니다.</p>
                 <p>
-                  저는 관악구에서 30년 이상 거주하며 이 지역의 특성과 주민분들의 고민을 깊이
+                  저는 관악구·금천구·구로구에서 30년 이상 거주하며 이 지역의 특성과 주민분들의 고민을 깊이
                   이해하고 있습니다. 법률 문제로 어려움을 겪고 계신 분들에게 실질적이고
                   효과적인 해결책을 제시하는 것이 저의 사명입니다.
                 </p>

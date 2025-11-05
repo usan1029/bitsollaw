@@ -1,6 +1,33 @@
 [build]
   publish = "dist/public"
+  functions = "netlify/functions"
+
+# 정적 파일 우선 매칭 (선택: 안전장치)
+[[redirects]]
+  from = "/sitemap.xml"
+  to = "/sitemap.xml"
+  status = 200
+
+[[redirects]]
+  from = "/robots.txt"
+  to = "/robots.txt"
+  status = 200
+
+# 1) 프런트 훅이 호출하는 경로를 함수로 연결
+[[redirects]]
+  from = "/api/consultations"
+  to = "/.netlify/functions/send-consultation"
+  status = 200
+
+# 2) SPA 라우팅용: 항상 마지막!
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+[functions]
+  node_bundler = "esbuild"
+  included_files = []
+
+[dev]
+  targetPort = 5173

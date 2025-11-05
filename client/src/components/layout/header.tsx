@@ -30,7 +30,7 @@ export default function Header() {
               빛솔 법률사무소
             </Link>
             <div className="ml-3 text-sm text-gray-600 hidden sm:block">
-              관악구 30년 거주
+              관악구·금천구·구로구 30년 거주
             </div>
           </div>
 

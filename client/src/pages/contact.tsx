@@ -18,7 +18,7 @@ export default function Contact() {
             찾아오시는 길
           </h1>
           <p className="text-xl text-gray-600">
-            관악구에 위치한 저희 사무소로 언제든 방문해 주세요
+            관악구·금천구·구로구에 위치한 저희 사무소로 언제든 방문해 주세요
           </p>
         </div>
 
