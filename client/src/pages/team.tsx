@@ -122,7 +122,6 @@ export default function Team() {
         </div>
 
         <div className="max-w-4xl mx-auto space-y-12">
-          <div className="h-24 w-full bg-gradient-to-r from-law-navy to-law-gold/80" />
           {/* 정민환 변호사 */}
           <ProfileCard
             photo="https://i.imgur.com/4EWwFul.jpg"
@@ -153,7 +152,6 @@ export default function Team() {
             activities={["관악구 법률지원 사업 참여", "신림동 상권활성화 법률자문", "관악구 주민센터 정기 법률상담"]}
           />
 
-          <div className="h-24 w-full bg-gradient-to-r from-law-navy to-law-gold/80" />
           {/* 송재원 이사 */}
           <ProfileCard
             photo="https://i.imgur.com/wDmIOZz.jpg"
@@ -163,7 +161,8 @@ export default function Team() {
             quoteTitle="송재원 이사의 말"
             quote="정확한 평가, 공정한 보상, 의뢰인 중심의 권리를 지키는 일입니다."
             education={[
-              "국민대학교 법무대학 손해사정 전공 졸업",
+              "국민대학교 법무대학",
+              "손해사정 전공 졸업",
               "논문: 2016년 손해사정 실무상 자살보험금의 연구 - 대법원 판례를 중심으로",
             ]}
             career={[
@@ -178,7 +177,6 @@ export default function Team() {
             specialties={["보험사건 전문", "산재사건 전문", "국가손해배상(국가장애)보험 전문"]}
           />
 
-          <div className="h-24 w-full bg-gradient-to-r from-law-navy to-law-gold/80" />
           {/* 강진영 손해사정사/법무실장 */}
           <ProfileCard
             photo="https://imgur.com/FkWIkio.jpg"
@@ -187,7 +185,8 @@ export default function Team() {
             role="손해사정사/법무실장"
             quoteTitle="강진영 손해사정사의 말"
             quote="손해사정의 핵심은 공정함입니다. 모든 사건에서 객관적 근거를 바탕으로, 의뢰인이 정당한 보상을 받을 수 있도록 최선을 다하겠습니다."
-            education={["서울과학기술대학교 건축공학과 졸업"]}
+            education={["서울과학기술대학교",
+            "건축공학과 졸업"]}
             career={["반석손해사정 팀장", "청담손해사정 이사", "청담손해사정 실무수습 강사", "지엘손해사정 대표"]}
             specialties={["상해, 질병 전문", "산재, 근재 전문", "자동차사고 대인배상 전문"]}
             licenses={["신체손해사정사", "건축기사", "한국손해사정사회 정회원"]}
