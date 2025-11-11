@@ -99,7 +99,7 @@ export default function Consultation() {
             <div>
               <h4 className="text-lg font-semibold text-law-navy mb-4">상담 방식</h4>
               <ul className="space-y-2 text-gray-700">
-                <li>• 초회 상담 무료 (30분)</li>
+                <li>• 유료 상담 (30분 / 10만원 / 수임 결정시 수임료에 포함)</li>
                 <li>• 전화, 방문, 온라인 상담 가능</li>
                 <li>• 대표변호사 직접 상담</li>
                 <li>• 상담 후 수임 여부 결정</li>
